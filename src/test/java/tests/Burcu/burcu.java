@@ -1,4 +1,4 @@
-package tests;
+package tests.Burcu;
 
 public class burcu {
 

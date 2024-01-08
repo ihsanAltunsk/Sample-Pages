@@ -1,4 +1,4 @@
-package pages.user.visitor;
+package pages.visitor;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

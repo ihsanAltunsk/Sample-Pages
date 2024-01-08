@@ -6,4 +6,6 @@ import utilities.Driver;
 public class UserSignUp {
     public UserSignUp(){
         PageFactory.initElements(Driver.getDriver(),this);}
+
+
 }

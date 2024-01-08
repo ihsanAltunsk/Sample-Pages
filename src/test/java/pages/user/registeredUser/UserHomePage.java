@@ -13,7 +13,10 @@ public class UserHomePage {
     public WebElement homeButton;
 
     @FindBy(xpath = "(//*[text()='About'])[1]")
-    public WebElement aboutButton;
+    public WebElement headerAboutButton;
+
+    @FindBy(xpath = "(//*[text()='About'])[2]")
+    public WebElement footerAboutButton;
 
     @FindBy(xpath = "(//*[text()='FAQs'])[1]")
     public WebElement faqsButton;

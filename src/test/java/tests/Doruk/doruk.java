@@ -1,4 +1,4 @@
-package tests;
+package tests.Doruk;
 
 public class doruk {
 

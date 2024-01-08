@@ -1,4 +1,4 @@
-package tests;
+package tests.Azim;
 
 public class azim {
 
