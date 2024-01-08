@@ -9,6 +9,9 @@ public class VisitorHomePage {
     public VisitorHomePage(){
         PageFactory.initElements(Driver.getDriver(),this);}
 
+    @FindBy(xpath = "//*[text()='Every Journey is an Adventure, Every Ticket is a Story']")
+    public WebElement HomePageVerify;
+
     @FindBy(xpath = "//*[@*='sign-in']")
     public WebElement singInButton;
 }
