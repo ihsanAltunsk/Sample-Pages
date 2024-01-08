@@ -12,6 +12,11 @@ public class VisitorHomePage {
     @FindBy(xpath = "//*[text()='Every Journey is an Adventure, Every Ticket is a Story']")
     public WebElement HomePageVerify;
 
+    // Homepage / SignIn button element
     @FindBy(xpath = "//*[@*='sign-in']")
     public WebElement singInButton;
+
+    // Homepage --> SignIn/Login button element
+    @FindBy(xpath = "//*[@*='account-button w-100']")
+    public WebElement loginButton;
 }
