@@ -1,20 +1,23 @@
-package pages.admin;
+package pages.user;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class AdminSignIn {
-    public AdminSignIn(){
+public class UserSignIn {
+    public UserSignIn(){
         PageFactory.initElements(Driver.getDriver(),this);}
 
-    @FindBy(xpath = "//*[@*='username']")
+    @FindBy(id = "username")
     public WebElement usernameBox;
 
-    @FindBy(xpath = "//*[@*='username']")
+    @FindBy(id = "password")
     public WebElement passwordBox;
 
-    @FindBy(xpath = "//*[@*='submit-btn mt-25 b-radius--capsule']")
+    @FindBy(xpath = "//*[@*='checkbox']")
+    public WebElement rememberMeCheckbox;
+
+    @FindBy(xpath = "//*[@*='account-button w-100']")
     public WebElement loginButton;
 }
