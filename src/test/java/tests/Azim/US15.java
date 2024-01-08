@@ -1,5 +1,4 @@
 package tests.Azim;
 
-public class azim {
-
+public class US15 {
 }

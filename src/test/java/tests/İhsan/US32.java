@@ -1,5 +1,4 @@
 package tests.İhsan;
 
-public class ihsan {
-
+public class US32 {
 }

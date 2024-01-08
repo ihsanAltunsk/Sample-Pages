@@ -1,5 +1,4 @@
 package tests.Doruk;
 
-public class doruk {
-
+public class US24 {
 }

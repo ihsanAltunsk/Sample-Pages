@@ -1,5 +1,5 @@
 package tests.Burcu;
 
-public class burcu {
+public class US04 {
 
 }

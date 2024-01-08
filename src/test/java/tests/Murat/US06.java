@@ -1,5 +1,5 @@
 package tests.Murat;
 
-public class murat {
+public class US06 {
 
 }

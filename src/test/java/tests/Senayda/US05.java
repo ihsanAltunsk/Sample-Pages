@@ -1,5 +1,5 @@
 package tests.Senayda;
 
-public class senayda {
+public class US05 {
 
 }
